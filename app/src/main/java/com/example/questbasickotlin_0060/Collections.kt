@@ -17,4 +17,8 @@ fun ContohList() {
     //menghapus data dalam list mutable(remove())
     shape.remove("Triangle")
     println(shape)
+
+    //Mengubah data di dalam list mutable (memanggil index ke - 0 langsung diberi values yang diinginkan)
+    shape[0] = "Oval"
+    println(shape)
 }
