@@ -6,3 +6,8 @@ import android.provider.ContactsContract.CommonDataKinds.Email
 // data class adalah class yang digunakan untuk menyimpan data.
 // data class menyediakan fungsi untuk meng-override (menumpuk) fungsi equals(), hashCode(), dan toString().
 // Data class juga menyediakan fungsi copy() untuk membuat salinan objek dengan beberapa perubahan.
+
+data class DataClass(
+    val id:Int,
+    var email: String
+)
