@@ -14,5 +14,7 @@ fun ContohList() {
     shape.add("Circle")
     println(shape)
 
-    
+    //menghapus data dalam list mutable(remove())
+    shape.remove("Triangle")
+    println(shape)
 }
