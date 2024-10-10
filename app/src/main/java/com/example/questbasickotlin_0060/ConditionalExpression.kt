@@ -37,3 +37,9 @@ fun ConditionalStatement(){
         println("invalid Number")
     }
 }
+
+fun Perulangan(){
+    println()
+    println("=== Perulangan ===")
+
+}
