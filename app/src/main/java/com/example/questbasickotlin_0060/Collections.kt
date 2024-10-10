@@ -38,7 +38,13 @@ fun ContohList() {
 //set mutable menggunakan mutableSetOf()
 //set read-only menggunakan setOf()
 
-fun ContohSet(){
+
+//Map adalah kumpulan data yang disusun dalam pasangan key-value
+//Set bersifat unordered, artinya data yang dimasukkan tidak memiliki posisi tertentu
+//set bersifat mutable dan read-only, artinya data yang dimasukkan dapat diubah dan tidak dapat diubah
+//set mutable menggunakan mutableMapOf()
+//set read-only menggunakan mapOf()
+fun ContohMap(){
     println()
     println("=== Map ===")
     //Map Read-Only
@@ -51,6 +57,7 @@ fun ContohSet(){
 
     //menambahkan data atau element ke dalam mutable map
     shape["Rectangle"] = 4
+    println(shape)
 
     //menghapus data atau element dari mutable map shape
     shape.remove("Circle")
