@@ -53,6 +53,11 @@ fun contohSet(){
     shape.add("Rectangle")
     println(shape)
 
+    //menghapus data dalam set mutable(remove())
+    shape.remove("Circle")
+    println(shape)
+
+
 }
 
 
