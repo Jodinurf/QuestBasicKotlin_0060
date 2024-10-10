@@ -50,4 +50,11 @@ fun Perulangan(){
     for (car in cars){
         println()
     }
+
+    //while
+    var x = 1
+    while(x<=5){
+        println("Perulangan ke - $x")
+        x++
+    }
 }
