@@ -63,3 +63,8 @@ fun Perulangan(){
         println("Perulangan ke - $y")
     }while (y <= 5)
 }
+
+fun main(){
+    ConditionalStatement()
+    Perulangan()
+}
