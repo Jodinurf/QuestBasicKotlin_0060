@@ -21,4 +21,7 @@ fun ContohList() {
     //Mengubah data di dalam list mutable (memanggil index ke - 0 langsung diberi values yang diinginkan)
     shape[0] = "Oval"
     println(shape)
+
+    val shapesLocked: List<String> = shape
+    println(shapesLocked)
 }
