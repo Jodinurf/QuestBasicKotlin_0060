@@ -1,5 +1,11 @@
 package com.example.questbasickotlin_0060
 
+//List adalah kumpulan data yang disusun secara berurutan dengan metode ascending
+//List bersifat ordered, artinya data yang dimasukkan sesuai dengan urutam
+//List bersifat mutable dan read-only, artinya dapat diubah dan tidak dapat diubah
+//List read-only menggunakan listOf()
+//List mutable menggunakan mutableListOf()
+
 fun ContohList() {
     println("=== List ===")
     //List read-only
