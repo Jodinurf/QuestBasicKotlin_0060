@@ -41,7 +41,9 @@ fun contohSet(){
     println()
     println("=== Set ===")
 
-    //Map read-only
+    //Set read-only
+    val readOnlyAbjad = setOf("A", "B", "C")
+    println(readOnlyAbjad)
 }
 
 
